@@ -100,7 +100,7 @@ header {
 }
 /* End offers styles  */
 .cardLogos{
-    width: 50%;
+    width: 30%;
 }
 /* Ribbon Styles */
 .wrapper {
@@ -232,7 +232,7 @@ footer a:hover{
         margin-bottom: 0px;
    }
    .cardLogos{
-        width: 50%;
+        width: 60%;
         margin-bottom: 10px;
     }
     .btn {
@@ -260,6 +260,10 @@ footer a:hover{
     .ribbon{
        width: 50%;
    }
+   .cardLogos{
+        width: 60%;
+        margin-bottom: 10px;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -269,6 +273,11 @@ footer a:hover{
         width: 80%;
         margin-top: 10px;
     }
+    .cardLogos{
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
