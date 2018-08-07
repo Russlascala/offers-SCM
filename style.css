@@ -46,6 +46,10 @@ header {
     text-align: center;
 }
 
+#creditBtn{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
 .numbers {
     line-height: 40px !important;
     -webkit-border-radius: 38px;
