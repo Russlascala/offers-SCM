@@ -231,9 +231,9 @@ footer a:hover{
     .bottomHead h2{
         font-size: 24px;
     }
-    .threeSteps {
+   /*  .threeSteps {
         text-align: left;
-    } 
+    }  */
     .textForward{
         display: none;
     }
