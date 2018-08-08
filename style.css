@@ -47,8 +47,8 @@ header {
 }
 
 #creditBtn{
-    margin-top: -10px;
-    margin-bottom: 5px;
+    margin-top: 0px!important;
+    margin-bottom: 5px!important;
 }
 .numbers {
     line-height: 40px !important;
@@ -230,6 +230,12 @@ footer a:hover{
     }
     .bottomHead h2{
         font-size: 24px;
+    }
+    .threeSteps {
+        text-align: left;
+    } 
+    .textForward{
+        display: none;
     }
     #logoImg {
         margin-top: 10px;
