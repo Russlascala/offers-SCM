@@ -108,7 +108,7 @@ header {
 }
 /* Ribbon Styles */
 .wrapper {
-    margin: 50px auto;
+    margin: 20px auto;
     width: auto;
     height: auto;
     background: white;
@@ -227,6 +227,7 @@ footer a:hover{
     #cardsImg{
         margin-top: 0px;
         margin-bottom: 0px;
+        display: none;
     }
     .bottomHead h2{
         font-size: 24px;
@@ -239,7 +240,7 @@ footer a:hover{
     }
     #logoImg {
         margin-top: 10px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
    }
    .cardLogos{
         width: 60%;
