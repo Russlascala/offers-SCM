@@ -46,6 +46,10 @@ header {
     text-align: center;
 }
 
+#showAt600{
+    display: none;
+}
+
 #creditBtn{
     margin-top: 0px!important;
     margin-bottom: 5px!important;
@@ -105,6 +109,9 @@ header {
 /* End offers styles  */
 .cardLogos{
     width: 30%;
+}
+.cardImgs{
+    width:100%;
 }
 /* Ribbon Styles */
 .wrapper {
@@ -221,6 +228,7 @@ footer a:hover{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* Top Header Styles */
+
     #logoImg, #cardsImg{
        margin: 0 auto;
        width: 60%;
@@ -231,14 +239,18 @@ footer a:hover{
         display: none;
     }
 
+    #showAt600{
+        display: block;
+        text-align: left;
+        font-size: 16px;
+    }
+
     .bottomHead h2{
         font-size: 24px;
     }
    .threeSteps {
-        text-align: center;
-        display: block;
-        margin-right: auto;
-        margin-right: auto;
+        text-align: left;
+        margin-left: 50px;
     } 
     .textForward{
         display: none;
@@ -250,6 +262,11 @@ footer a:hover{
    .cardLogos{
         width: 60%;
         margin-bottom: 10px;
+    }
+    .cardImgs{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
     }
     .btn {
         margin-top: 10px; 
@@ -280,6 +297,9 @@ footer a:hover{
         width: 60%;
         margin-bottom: 10px;
     }
+     .threeSteps{
+        text-align: left;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -293,6 +313,7 @@ footer a:hover{
         width: 30%;
         margin-bottom: 10px;
     }
+
 
 } 
 

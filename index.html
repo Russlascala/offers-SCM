@@ -24,7 +24,7 @@
         <!-- Custom CSS -->
         <link href="style.css" rel="stylesheet">
         <!-- favicon -->
-        <link rel="icon" href="assets/imgs/favicon.ico" type="image/ico" sizes="16x16">
+        <link rel="icon" href="imgs/favicon.ico" type="image/ico" sizes="16x16">
     </head>
 
     <body>
@@ -64,7 +64,7 @@
                     <!-- <span style="font-weight: bold; margin: 10px;">Choose Your &nbsp;</span> -->
                     <button type="button" class="btn btn-primary dropdown-toggle" id="creditBtn" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
-                        Select
+                        <span id="selectBtn">Select<span id="showAt600">Your Credit History</span></span>
                     </button>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Poor (300-579)</a>
@@ -89,7 +89,7 @@
                     <span class="numbers">3</span>Choose
                     <i class="fas fa-hand-pointer fa-fw fontIcons"></i>
                 </h4>
-                <p class="textForward">The Best Credit Card that fits your needs</p>
+                <p class="textForward">Choose the Best Credit Card that fits your needs</p>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
                     <img src="imgs/netspend-logo.png" class="cardLogos" alt="Netspend Logo">
                 </div>
                 <div class="col-md-3 autoMargin">
-                    <img src="imgs/netspend.png" style="width:100%;" alt="Netspend Credit Card">
+                    <img src="imgs/netspend.png" class="cardImgs" alt="Netspend Credit Card">
                 </div>
                 <div class="col-md-6">
                     <div class="tableInfo">
@@ -154,7 +154,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 autoMargin ctaBtn" >
-                    <button type="button" class="btn btn-success btn-lg btn-block">Choose Card</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block">Apply Now</button>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
                     <img src="imgs/rush-logo.jpg" class="cardLogos" style="margin-bottom:5px;"alt="Rushcard Logo">
                 </div>
                 <div class="col-md-3 autoMargin">
-                    <img src="imgs/Rushcard.png" style="width:100%;" alt="Rushcard Credit Card">
+                    <img src="imgs/Rushcard.png"  class="cardImgs" alt="Rushcard Credit Card">
                 </div>
                 <div class="col-md-6">
                     <div class="tableInfo" >
@@ -178,7 +178,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                        Get your paycheck and benefits up to 2 days sooner with Direct Deposit.
+                                         Enroll in Direct Deposit and get your pay up to two days early. Certain restrictions apply*!
                                     </td>
                                 </tr>
                                 <tr>
@@ -186,7 +186,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                        Shop at stores. Buy online. Set up recurring debit card payments.
+                                         Shop online and in stores - everywhere Visa debit cards are accepted!
                                     </td>
                                 </tr>
                                 <tr>
@@ -194,7 +194,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                        Access your hard-earned cash when you need it. Withdraw money at thousands of fee-free 16 ATMs nationwide.
+                                     Easy Online Bill Pay — pay your rent, utilities or a friend*!
                                     </td>
                                 </tr>
                                 <tr>
@@ -202,16 +202,22 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Stay protected against unauthorized charges with the Visa Zero Liability Policy and smart monitoring tools.
+                                         Your funds are FDIC-Insured through MetaBank®, Member FDIC. Card accounts are subject to ID Verification*!
                                     </td>
                                 </tr>
                                 
+                                
                             </tbody>
-                        </table>
+                        </table> 
+                        <p style="color:darkgray; font-size:12px;">
+                            * Certain restrictions apply. See card site for details. Click on "Apply Now" to learn more about Midnight Prepaid Visa
+                                RushCard.
+
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-3 autoMargin ctaBtn">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Choose Card</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block">Apply Now</button>
                 </div>
             </div>
         </div>
@@ -223,7 +229,7 @@
                     <img src="imgs/AbsoluteGoldCardLogo.png" class="cardLogos" style="margin-bottom:5px;" alt="Rushcard Logo">
                 </div>
                 <div class="col-md-3 autoMargin">
-                    <img src="imgs/creditcard-gen.png" style="width:100%;" alt="Rushcard Credit Card">
+                    <img src="imgs/creditcard-gen.png" class="cardImgs" alt="Rushcard Credit Card">
                 </div>
                 <div class="col-md-6">
                     <div class="tableInfo">
@@ -267,7 +273,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 autoMargin ctaBtn">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Choose Card</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block">Apply Now</button>
                 </div>
             </div>
         </div>
@@ -279,7 +285,7 @@
                     <img src="imgs/logo_first.png" class="cardLogos" style="margin-bottom:5px;" alt="First Access Logo">
                 </div>
                 <div class="col-md-3 autoMargin">
-                    <img src="imgs/firstaccess.png" style="width:100%;" alt="First Access Credit Card">
+                    <img src="imgs/firstaccess.png" class="cardImgs" alt="First Access Credit Card">
                 </div>
                 <div class="col-md-6">
                     <div class="tableInfo">
@@ -290,7 +296,8 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Get a full-feature VISA® Credit Card, accepted nationwide!
+                                         Get the security and convenience of a full-feature, unsecured VISA® Credit Card – accepted at millions of merchant and ATM
+                                        locations nationwide and online!
                                     </td>
                                 </tr>
                                 <tr>
@@ -298,7 +305,8 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Quick and easy secure online application!
+                                         Easy and secure online application!
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -306,7 +314,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         First Access Card is a true VISA® credit card that does not require perfect credit for approval.
+                                         Perfect credit not required for approval; may approve you when others won’t!
                                     </td>
                                 </tr>
                                 <tr>
@@ -314,7 +322,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Get a response in as little as 60 seconds!
+                                         Get a result in as little as 60 seconds upon completion of the online application!
                                     </td>
                                 </tr>
                                 
@@ -323,7 +331,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 autoMargin ctaBtn">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Choose Card</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block">Apply Now</button>
                 </div>
             </div>
         </div>
@@ -335,7 +343,7 @@
                     <img src="imgs/logo_total_top.png" class="cardLogos" style="margin-bottom:5px;" alt="TOTAL VISA Logo">
                 </div>
                 <div class="col-md-3 autoMargin">
-                    <img src="imgs/total.png" style="width:100%;" alt="TOTAL VISA Credit Card">
+                    <img src="imgs/total.png" class="cardImgs" alt="TOTAL VISA Credit Card">
                 </div>
                 <div class="col-md-6">
                     <div class="tableInfo">
@@ -346,7 +354,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Get a Genuine VISA® Credit Card
+                                         A genuine VISA card accepted by merchants nationwide across the USA and online!
                                     </td>
                                 </tr>
                                 <tr>
@@ -354,7 +362,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Reports monthly to all three major credit bureaus, with manageable monthly payments
+                                         Fast and easy application process; response provided in seconds!
                                     </td>
                                 </tr>
                                 <tr>
@@ -362,7 +370,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Accepted by merchants throughout the USA and online
+                                         Reports monthly to all three major credit bureaus!
                                     </td>
                                 </tr>
                                 <tr>
@@ -370,7 +378,7 @@
                                         <i class="fas fa-check fa-fw"></i>
                                     </th>
                                     <td>
-                                         Checking account required
+                                         Checking account required!
                                     </td>
                                 </tr>
         
@@ -379,7 +387,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 autoMargin ctaBtn">
-                    <button type="button" class="btn btn-success btn-lg btn-block">Choose Card</button>
+                    <button type="button" class="btn btn-success btn-lg btn-block">Apply Now</button>
                 </div>
             </div>
         </div>
