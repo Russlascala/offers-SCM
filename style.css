@@ -1,3 +1,5 @@
+
+
 .autoMargin {
     margin: auto;
 }
@@ -221,12 +223,31 @@ footer, a{
 footer a:hover{
     color: #005B41;
 }
-/* End Footer Styles */
+ /* ADDED CSS */
+    .hideMobile{
+        display: none;
+    }
+    .displayFix{
+        display: inherit;
+    }
 
+/* End Footer Styles */
+/* ADDED CSS media query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 567px) {
+    .bottomHead{
+        display: none;
+    }
+    .bottomHeadMobile{
+        margin-top:.5rem;
+        display: block;
+    }
+}
 
 /* Responsive Css */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+   
     /* Top Header Styles */
 
     #logoImg, #cardsImg{
@@ -259,8 +280,9 @@ footer a:hover{
         margin-top: 10px;
         margin-bottom: 10px;
    }
+   /* CHANGED CSS */
    .cardLogos{
-        width: 60%;
+        width: 100%;
         margin-bottom: 10px;
     }
     .cardImgs{
@@ -276,6 +298,14 @@ footer a:hover{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .hideMobile{
+        display: block;
+    }
+
+    .bottomHeadMobile{
+        display: none;
+    }
+   
     /* Top Header Styles */
     #logoImg, #cardsImg{
        margin: 0 auto;
